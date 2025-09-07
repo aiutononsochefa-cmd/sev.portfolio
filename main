@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Nome Cognome</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      color: #333;
+      background: #f5f5f5;
+      line-height: 1.6;
+    }
+    header {
+      background: #222;
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #bbb;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #333;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 1rem;
+      transition: background 0.3s;
+    }
+    nav a:hover {
+      background: #555;
+    }
+    section {
+      padding: 3rem 1rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      text-align: center;
+      color: #222;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: #fff;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+      margin-top: 2rem;
+    }
+    footer p {
+      margin-bottom: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Nome Cognome</h1>
+    <p>Web Developer | Designer | Creativo</p>
+  </header>
+
+  <nav>
+    <a href="#about">Chi sono</a>
+    <a href="#projects">Progetti</a>
+    <a href="#contact">Contatti</a>
+  </nav>
+
+  <section id="about">
+    <h2>Chi sono</h2>
+    <p>Ciao! Sono un sviluppatore web appassionato di design moderno e tecnologie innovative. Creo siti e applicazioni performanti e responsive per migliorare l'esperienza digitale delle persone.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Progetti</h2>
+    <div class="projects">
+      <div class="card">
+        <img src="https://via.placeholder.com/400x250" alt="Progetto 1">
+        <h3>Progetto 1</h3>
+        <p>Descrizione breve del progetto realizzato.</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/400x250" alt="Progetto 2">
+        <h3>Progetto 2</h3>
+        <p>Descrizione breve del progetto realizzato.</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/400x250" alt="Progetto 3">
+        <h3>Progetto 3</h3>
+        <p>Descrizione breve del progetto realizzato.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contatti</h2>
+    <p>📧 Email: tuonome@email.com</p>
+    <p>🔗 LinkedIn: <a href="#">linkedin.com/in/tuonome</a></p>
+    <p>🐙 GitHub: <a href="#">github.com/tuonome</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Nome Cognome. Tutti i diritti riservati.</p>
+  </footer>
+</body>
+</html>
